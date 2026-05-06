@@ -2,7 +2,7 @@ import secrets
 from vkbottle.bot import Bot, Message
 import db
 
-TOKEN = "ВАШ_ТОКЕН_ЗДЕСЬ"
+TOKEN = "vk1.a.-BTzntO46GkOubI4_KRgcvEL41LVqqoFWO19UtBTEOoRDtCyp1B9ZXhPI4gVG7ZeqJbJi-_BJ660LMkUo130Wa-6FPS_lmvtI-LZk74c5P3Pe9vD0egBeGH5TnBBk5hJDD99EyCBPrKbFR1zH3Fk0OybWeL8EYdEwHitDFLia9EP4BfqT_S5pHff_Hg3MXKaB8zxeyKqTrQKjLESABnGOQ"
 
 db.init_db()
 bot = Bot(token=TOKEN)
